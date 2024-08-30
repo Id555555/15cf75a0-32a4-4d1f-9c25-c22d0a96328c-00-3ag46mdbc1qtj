@@ -350,7 +350,7 @@ d3.json(dataUrl).then(response => {
     formatButtons.on("click", function(d) {
       const format = d;
       const svgNode = svg.node().cloneNode(true);
-      const scale = 3;
+      const scale = 4;
       const padding = format === "jpg" ? 60 : 0;
 
       // Удаляем кнопку скачивания из копии SVG
