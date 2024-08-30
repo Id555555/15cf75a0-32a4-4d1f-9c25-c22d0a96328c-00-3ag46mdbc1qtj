@@ -159,7 +159,7 @@ d3.json(dataUrl).then(response => {
         .text(item.name)
         .style("font-family", "Arial, sans-serif")
         .style("font-weight", "bold")
-        .style("font-size", "6.5px")
+        .style("font-size", "6.3px")
         .style("letter-spacing", "0.5px")
         .style("fill", "#333")
         .attr("class", "in-chart");
